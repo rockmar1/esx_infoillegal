@@ -1,13 +1,13 @@
-ESX                           = nil
-local GUI					  = {}
-local HasAlreadyEnteredMarker = false
-local LastZone                = nil
-GUI.Time           			  = 0
-local CurrentAction           = nil
-local CurrentActionMsg        = ''
-local CurrentActionData       = {}
-local times 				  = 0
-local blipillegal 			  = {}
+ESX                           	= nil
+local GUI			= {}
+local HasAlreadyEnteredMarker 	= false
+local LastZone                	= nil
+GUI.Time           		= 0
+local CurrentAction           	= nil
+local CurrentActionMsg        	= ''
+local CurrentActionData       	= {}
+local times 			= 0
+local blipillegal 		= {}
 
 Citizen.CreateThread(function()
 	while ESX == nil do
