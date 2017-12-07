@@ -1,4 +1,4 @@
-locales['en'] = {
+Locales['en'] = {
  	['illegalblip'] 		= 'Seller info',
  	['press_menu'] 			= 'Press on ~INPUT_CONTEXT~ to whiten your ~y~Dirty money',
  	['Nothere'] 			= 'I\'m not the brother',	
